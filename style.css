@@ -1,0 +1,33 @@
+body {
+    background-color: lightgreen;
+}
+
+input, button {
+    font-size: 20px;
+}
+
+.ball {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-transform: capitalize;
+    z-index: 2;
+}
+
+.rectangle {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 20%;
+}
+
+
+
